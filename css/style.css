@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One&display=swap');
+/* Colors
+color-shade-1: #A57D32
+color-shade-2: #8A724E
+color-shade-3: #1D0205
+font-family: 'Anton';
+font-family: 'Bowlby One';
+*/
 
-h1 {
+
+:root {
+    --bg-dark: #333;
+    --color-shade-1: #A57D32;
+    --color-shade-2: #8A724E;
+    --color-shade-3: #1D0205;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: 'Bowlby One', cursive;
+    
 }
