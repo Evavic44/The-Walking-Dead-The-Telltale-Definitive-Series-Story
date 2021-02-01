@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Shadows+Into+Light&family=Thasadith:wght@400;700&display=swap');
 /* Colors
 color-shade-1: #A57D32
 color-shade-2: #8A724E
 color-shade-3: #1D0205
-font-family: 'Anton';
-font-family: 'Bowlby One';
+
+
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Thasadith', sans-serif;
 */
-
-
 :root {
     --bg-dark: #333;
-    --color-shade-1: #A57D32;
+    --color-shade-1: #caab72;
     --color-shade-2: #8A724E;
     --color-shade-3: #1D0205;
 }
@@ -21,6 +22,19 @@ font-family: 'Bowlby One';
 }
 
 body {
-    font-family: 'Bowlby One', cursive;
-    
+    font-family: 'Bowlby One SC', cursive;
+    background-color: var(--color-shade-1);
+    color: #1D0205;
+}
+
+h1, h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 1px #8d5e18;
+}
+
+p {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
