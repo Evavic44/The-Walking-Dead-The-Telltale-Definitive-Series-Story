@@ -68,3 +68,13 @@ p {
     box-shadow: 3px 3px 2.5px #64420e;
     color: #8d5e18;
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    padding: 20px;
+}
