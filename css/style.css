@@ -77,5 +77,10 @@ p {
     text-align: center;
     height: 60vh;
     padding: 20px;
-    background: url(/img/header-one.jpg) no-repeat top center/cover;
+    /* background: url(/img/header-one.jpg) no-repeat center center/cover; */
+    background-image: url(/img/header-one.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-size: cover;
 }
