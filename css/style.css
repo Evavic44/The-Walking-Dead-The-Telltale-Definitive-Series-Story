@@ -49,7 +49,7 @@ p {
     text-decoration: none;
     color: #8d5e18;
     background-color: var(--color-shade-4);
-    padding: 15px 25px; 
+    padding: 17px 40px;; 
     margin: 0 5px;
     border-radius: 2px;
     transition: all .4s ease-in-out;
