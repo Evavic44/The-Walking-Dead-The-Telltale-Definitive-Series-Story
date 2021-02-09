@@ -3,7 +3,7 @@
 color-shade-1: #A57D32
 color-shade-2: #8A724E
 color-shade-3: #1D0205
-color-shade-3: #8d5e18
+color-shade-4: #8d5e18
 
 
 font-family: 'Bowlby One SC', cursive;
@@ -11,7 +11,7 @@ font-family: 'Shadows Into Light', cursive;
 font-family: 'Thasadith', sans-serif;
 */
 :root {
-    --bg-dark: #333;
+    --bg-dark: #000;
     --color-shade-1: #caab72;
     --color-shade-2: #d68914;
     --color-shade-3: #8d5e18;
@@ -27,18 +27,18 @@ body {
     font-family: 'Bowlby One SC', cursive;
     background-color: var(--color-shade-1);
     color: #1D0205;
+    overflow: hidden;
 }
 
 h1, h2 {
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom: 10px;
     text-shadow: 3px 3px 1px #8d5e18;
 }
 
 p {
-    font-family: 'Thasadith', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 100;
+    font-size: 15px;
 }
 
 /* Buttons */
@@ -75,12 +75,47 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: 100vh;
     padding: 20px;
+    padding-top: 5rem;
     /* background: url(/img/header-one.jpg) no-repeat center center/cover; */
     background-image: url(/img/header-one.jpg);
+    background-color: #000;
     background-repeat: no-repeat;
     background-position-y: top;
     background-position-x: center;
     background-size: cover;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.hero * {
+    z-index: 10;
+}
+
+.hero-content {
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+}
+
+.hero-content p {
+    font-size: 15px;
+    color: #f4f4f4;
+    padding: 0 6rem 1.5rem;
+}
+
+.hero-content .btn {
+    padding: 17px 40px;
 }
