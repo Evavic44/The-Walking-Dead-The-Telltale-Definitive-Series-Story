@@ -37,7 +37,9 @@ h1, h2 {
 }
 
 p {
-    font-weight: 100;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #f4f4f4;
     font-size: 15px;
 }
 
@@ -48,13 +50,14 @@ p {
     color: #8d5e18;
     background-color: var(--color-shade-4);
     padding: 15px 25px; 
+    margin: 0 5px;
     border-radius: 2px;
     transition: all .4s ease-in-out;
 }
 
 .btn-next:hover {
     background-color: var(--color-shade-3);
-    box-shadow: 4px 4px 3px #3a2d01;
+    /* box-shadow: 4px 4px 3px #3a2d01; */
     color: #1D0205;
 }
 
@@ -65,7 +68,7 @@ p {
 
 .btn-prev:hover {
     background-color: var(--color-shade-4);
-    box-shadow: 3px 3px 2.5px #64420e;
+    /* box-shadow: 3px 3px 2.5px #64420e; */
     color: #8d5e18;
 }
 
@@ -77,7 +80,7 @@ p {
     text-align: center;
     height: 100vh;
     padding: 20px;
-    padding-top: 5rem;
+    padding-top: 7rem;
     /* background: url(/img/header-one.jpg) no-repeat center center/cover; */
     background-image: url(/img/header-one.jpg);
     background-color: #000;
@@ -95,9 +98,8 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.1);
 }
-
 .hero * {
     z-index: 10;
 }
@@ -111,7 +113,8 @@ p {
 }
 
 .hero-content p {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.4;
     color: #f4f4f4;
     padding: 0 6rem 1.5rem;
 }
@@ -119,3 +122,34 @@ p {
 .hero-content .btn {
     padding: 17px 40px;
 }
+
+/* Slide */
+.slide {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.slide .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.content p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#slide-1 { background: url(/img/781539.jpg)no-repeat center center/cover; }
+#slide-2 { background: url(/img/clem&aj.jpg)no-repeat center center/cover; }
+#slide-3 { background: url(/img/Season-02.jpg)no-repeat center center/cover; }
+#slide-4 { background: url(/img/Season-04.jpg)no-repeat center center/cover; }
+#slide-5 { background: url(/img/Season-05.jpg)no-repeat center center/cover; }
+#slide-6 { background: url(/img/Season-06.png)no-repeat center center/cover; }
+
