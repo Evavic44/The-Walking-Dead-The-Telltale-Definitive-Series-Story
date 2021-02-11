@@ -98,7 +98,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.2);
 }
 .hero * {
     z-index: 10;
@@ -146,10 +146,10 @@ p {
     line-height: 1.5;
 }
 
-#slide-1 { background: url(/img/781539.jpg)no-repeat center center/cover; }
-#slide-2 { background: url(/img/clem&aj.jpg)no-repeat center center/cover; }
-#slide-3 { background: url(/img/Season-02.jpg)no-repeat center center/cover; }
+#slide-1 { background: url(/img/season-01.jpg)no-repeat center center/cover; }
+#slide-2 { background: url(/img/Season-02.jpg)no-repeat center center/cover; }
+#slide-3 { background: url(/img/Season-03.jpg)no-repeat center center/cover; }
 #slide-4 { background: url(/img/Season-04.jpg)no-repeat center center/cover; }
 #slide-5 { background: url(/img/Season-05.jpg)no-repeat center center/cover; }
-#slide-6 { background: url(/img/Season-06.png)no-repeat center center/cover; }
+#slide-6 { background: url(/img/final-season.jpg)no-repeat center center/cover; }
 
