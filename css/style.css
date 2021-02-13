@@ -113,7 +113,7 @@ p {
 }
 
 .hero-content p {
-    font-size: 16px;
+    font-size: 17.5px;
     line-height: 1.4;
     color: #f4f4f4;
     padding: 0 6rem 1.5rem;
@@ -146,12 +146,12 @@ p {
     line-height: 1.5;
 }
 /* !Align background cover to top center */
-#slide-1 { background: url(/img/season-01.jpg)no-repeat center center/cover; }
+#slide-1 { background: url(/img/season-01.jpg)no-repeat top center/cover; }
 #slide-2 { background: url(/img/Season-02.jpg)no-repeat center center/cover; }
-#slide-3 { background: url(/img/Season-03.jpg)no-repeat center center/cover; }
-#slide-4 { background: url(/img/Season-04.jpg)no-repeat center center/cover; }
-#slide-5 { background: url(/img/Season-05.jpg)no-repeat center center/cover; }
+#slide-3 { background: url(/img/Season-03.jpg)no-repeat top center/cover; }
+#slide-4 { background: url(/img/Season-04.jpg)no-repeat top center/cover; }
+#slide-5 { background: url(/img/Season-05.jpg)no-repeat top center/cover; }
 
 /* !Align background cover to top */
-#slide-6 { background: url(/img/final-season.jpg)no-repeat center center/cover; }
+#slide-6 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
 
