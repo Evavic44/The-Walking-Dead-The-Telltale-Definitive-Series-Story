@@ -110,16 +110,21 @@ p {
 
 .hero-content h1 {
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 .hero-content p {
-    font-size: 17.5px;
+    font-size: 18px;
     line-height: 1.4;
-    color: #f4f4f4;
-    padding: 0 6rem 1.5rem;
+    margin: 0 100px;
+    color: #fff;
+    padding: 1rem;
+    background-color: rgba(22,22,22,0.4);
+    border-radius: 10px;
 }
 
 .hero-content .btn {
+    margin-top: 20px;
     padding: 17px 40px;
 }
 
@@ -133,12 +138,11 @@ p {
 .slide .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    text-align: center;
     height: 100%;
-    padding: 0 50px;
-    max-width: 800px;
+    margin: 0 50px;
+    max-width: 1000px;
 }
 
 .content p, ul {
@@ -149,9 +153,15 @@ p {
 }
 
 #slide-1 { background: url(/img/season-01.jpg)no-repeat top center/cover; }
-#slide-2 { background: url(/img/Season-02.jpg)no-repeat center center/cover; }
-#slide-3 { background: url(/img/Season-03.jpg)no-repeat top center/cover; }
+#slide-2 { background: url(/img/season-02.jpg)no-repeat center center/cover; }
+#slide-3 { background: url(/img/season-03.jpg)no-repeat top center/cover; }
 #slide-4 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
 #slide-5 { background: url(/img/400-days.jpg)no-repeat top center/cover; }
 #slide-6 { background: url(/img/michonne.png)no-repeat top center/cover; }
 
+/* Todo */
+/* 
+    1. Add Max-width to .content
+    2. Add margin: 0 50px to #slides
+    3. Add background opacity to Slide paragraphs
+*/
