@@ -169,15 +169,58 @@ p {
     max-width: 700px;
 }
 
-
 #slide-3 { background: url(/img/season-03.jpg)no-repeat top center/cover; }
+#slide-3 .content {
+    align-items: flex-start;
+    justify-content: center; 
+    text-align: left;
+}
+#slide-3 .content p {
+    max-width: 700px;
+}
+
 #slide-4 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
+#slide-4 .content {
+    align-items: flex-start;
+    justify-content: center; 
+    text-align: left;
+}
+#slide-4 .content p {
+    max-width: 700px;
+}
+
 #slide-5 { background: url(/img/400-days.jpg)no-repeat top center/cover; }
+#slide-5 .content {
+    align-items: flex-start;
+    justify-content: center; 
+    text-align: left;
+}
+#slide-5 .content p {
+    max-width: 700px;
+}
 #slide-6 { background: url(/img/michonne.png)no-repeat top center/cover; }
+#slide-6 .content {
+    align-items: flex-end;
+    justify-content: center; 
+    text-align: center;
+}
+#slide-6 .content p {
+    max-width: 700px;
+}
 
 /* Todo */
 /* 
-    todo 3: Add background opacity to slide paragraphs
-    todo 4: Follow #slide .content p to complete others
-    todo 5: Add award plaque to footer
+    todo: Re-arrange slides according to season order of release 
+    todo: Add background opacity to slide paragraphs
+    todo: Add award plaque to footer
+*/
+
+/* ?Order of release */
+/*
+*Season 1
+"400 Days" (DLC)
+Season 2
+Michonne
+Season 3 
+Final season 
 */
