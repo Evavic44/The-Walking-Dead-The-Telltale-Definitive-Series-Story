@@ -40,7 +40,6 @@ p {
     font-family: 'Arial', Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #f4f4f4;
-    font-size: 15px;
 }
 
 /* Buttons */
@@ -81,7 +80,6 @@ p {
     height: 100vh;
     padding: 20px;
     padding-top: 7rem;
-    /* background: url(/img/header-one.jpg) no-repeat center center/cover; */
     background-image: url(/img/header-one.jpg);
     background-color: #000;
     background-repeat: no-repeat;
@@ -116,11 +114,12 @@ p {
 .hero-content p {
     font-size: 18px;
     line-height: 1.4;
-    margin: 0 100px;
+    margin: 0 auto;
     color: #fff;
     padding: 1rem;
     background-color: rgba(22,22,22,0.4);
     border-radius: 10px;
+    max-width: 900px;
 }
 
 .hero-content .btn {
@@ -138,14 +137,12 @@ p {
 .slide .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
     height: 100%;
-    margin: 0 50px;
-    max-width: 1000px;
+    /* margin: 0 50px 0 10px; */
+    padding: 30px;
 }
 
-.content p, ul {
+.content p {
     padding-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
@@ -153,7 +150,26 @@ p {
 }
 
 #slide-1 { background: url(/img/season-01.jpg)no-repeat top center/cover; }
+#slide-1 .content {
+    align-items: flex-start;
+    justify-content: center;
+}
+#slide-1 .content p {
+    max-width: 800px;
+}
+
+
 #slide-2 { background: url(/img/season-02.jpg)no-repeat center center/cover; }
+#slide-2 .content {
+    align-items: flex-end;
+    justify-content: center; 
+    text-align: right;
+}
+#slide-2 .content p {
+    max-width: 700px;
+}
+
+
 #slide-3 { background: url(/img/season-03.jpg)no-repeat top center/cover; }
 #slide-4 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
 #slide-5 { background: url(/img/400-days.jpg)no-repeat top center/cover; }
@@ -161,7 +177,7 @@ p {
 
 /* Todo */
 /* 
-    1. Add Max-width to .content
-    2. Add margin: 0 50px to #slides
-    3. Add background opacity to Slide paragraphs
+    todo 3: Add background opacity to slide paragraphs
+    todo 4: Follow #slide .content p to complete others
+    todo 5: Add award plaque to footer
 */
