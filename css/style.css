@@ -16,6 +16,7 @@ font-family: 'Thasadith', sans-serif;
     --color-shade-2: #d68914;
     --color-shade-3: #8d5e18;
     --color-shade-4: #1D0205;
+    
 }
 
 * {
@@ -56,7 +57,6 @@ p {
 
 .btn-next:hover {
     background-color: var(--color-shade-3);
-    /* box-shadow: 4px 4px 3px #3a2d01; */
     color: #1D0205;
 }
 
@@ -67,8 +67,20 @@ p {
 
 .btn-prev:hover {
     background-color: var(--color-shade-4);
-    /* box-shadow: 3px 3px 2.5px #64420e; */
     color: #8d5e18;
+}
+
+.bg-wrap-dark {
+    background-color: rgba(22,22,22,0.5);
+    border-radius: 3px;
+}
+.bg-wrap-light {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+}
+.bg-wrap-primary {
+    background-color: rgb(214, 137, 20, 0.7);
+    border-radius: 3px;
 }
 
 .hero {
@@ -117,8 +129,6 @@ p {
     margin: 0 auto;
     color: #fff;
     padding: 1rem;
-    background-color: rgba(22,22,22,0.4);
-    border-radius: 10px;
     max-width: 900px;
 }
 
@@ -138,15 +148,15 @@ p {
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* margin: 0 50px 0 10px; */
     padding: 30px;
 }
 
 .content p {
-    padding-bottom: 20px;
+    padding: 30px 25px;
     font-size: 16px;
     line-height: 1.5;
     color: #f4f4f4;
+    margin-bottom: 15px;
 }
 
 #slide-1 { background: url(/img/season-01.jpg)no-repeat top center/cover; }
@@ -159,7 +169,7 @@ p {
 }
 
 
-#slide-2 { background: url(/img/season-02.jpg)no-repeat center center/cover; }
+#slide-2 { background: url(/img/400-days.jpg)no-repeat center center/cover; }
 #slide-2 .content {
     align-items: flex-end;
     justify-content: center; 
@@ -169,7 +179,7 @@ p {
     max-width: 700px;
 }
 
-#slide-3 { background: url(/img/season-03.jpg)no-repeat top center/cover; }
+#slide-3 { background: url(/img/season-02.jpg)no-repeat top center/cover; }
 #slide-3 .content {
     align-items: flex-start;
     justify-content: center; 
@@ -179,9 +189,9 @@ p {
     max-width: 700px;
 }
 
-#slide-4 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
+#slide-4 { background: url(/img/michonne.png)no-repeat top center/cover; }
 #slide-4 .content {
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center; 
     text-align: left;
 }
@@ -189,7 +199,7 @@ p {
     max-width: 700px;
 }
 
-#slide-5 { background: url(/img/400-days.jpg)no-repeat top center/cover; }
+#slide-5 { background: url(/img/season-03.jpg)no-repeat top center/cover; }
 #slide-5 .content {
     align-items: flex-start;
     justify-content: center; 
@@ -198,7 +208,7 @@ p {
 #slide-5 .content p {
     max-width: 700px;
 }
-#slide-6 { background: url(/img/michonne.png)no-repeat top center/cover; }
+#slide-6 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
 #slide-6 .content {
     align-items: flex-end;
     justify-content: center; 
@@ -210,7 +220,8 @@ p {
 
 /* Todo */
 /* 
-    todo: Re-arrange slides according to season order of release 
+    *todo: Re-arrange slides according to season order of release
+    todo: Increase paragraph text size
     todo: Add background opacity to slide paragraphs
     todo: Add award plaque page
     todo: Add footer
@@ -219,9 +230,9 @@ p {
 /* ?Order of release */
 /*
 *Season 1
-"400 Days" (DLC)
-Season 2
-Michonne
-Season 3 
-Final season 
+*"400 Days" (DLC)
+*Season 2
+*Michonne
+*Season 3 
+*Final season 
 */
