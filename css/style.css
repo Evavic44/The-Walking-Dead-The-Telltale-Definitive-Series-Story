@@ -75,7 +75,7 @@ p {
     border-radius: 3px;
 }
 .bg-wrap-light {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(83, 83, 83, 0.425);
     border-radius: 3px;
 }
 .bg-wrap-primary {
@@ -171,9 +171,9 @@ p {
 
 #slide-2 { background: url(/img/400-days.jpg)no-repeat center center/cover; }
 #slide-2 .content {
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center; 
-    text-align: right;
+    text-align: left;
 }
 #slide-2 .content p {
     max-width: 700px;
