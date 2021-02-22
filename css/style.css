@@ -209,22 +209,34 @@ p {
     max-width: 700px;
 }
 #slide-6 { background: url(/img/final-season.jpg)no-repeat top center/cover; }
+#slide .slide {
+    height: 80%;
+}
 #slide-6 .content {
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center; 
     text-align: center;
+    margin-top: 60px;
 }
 #slide-6 .content p {
     max-width: 700px;
 }
 
+/* Footer */
+#main-footer {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    background-color: #333;
+}
+
 /* Todo */
 /* 
     *todo: Re-arrange slides according to season order of release
-    todo: Increase paragraph text size
-    todo: Add background opacity to slide paragraphs
-    todo: Add award plaque page
-    todo: Add footer
+    *todo: Increase paragraph text size
+    *todo: Add background opacity to slide paragraphs
+    *todo: Add award plaque page
+    *todo: Add footer
 */
 
 /* ?Order of release */
