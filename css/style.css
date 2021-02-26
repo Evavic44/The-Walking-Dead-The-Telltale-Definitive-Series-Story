@@ -43,6 +43,15 @@ p {
     color: #f4f4f4;
 }
 
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-shade-2);
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -245,7 +254,28 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}   
+    padding: 10px;
+} 
+
+.footer-icons ul {
+    display: flex;
+}
+
+.footer-icons a {
+    color: var(--color-shade-2);
+    padding: 10px;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+} 
+
+.footer-icons a[href="#home"] {
+    padding: 0 10px;
+    font-size: 70px;
+}
+
+.footer-icons a:hover {
+    opacity: 0.5;
+}
 
 /* Todo */
 /* 
@@ -254,14 +284,4 @@ p {
     *todo: Add background opacity to slide paragraphs
     *todo: Add award plaque page
     *todo: Add footer
-*/
-
-/* ?Order of release */
-/*
-*Season 1
-*"400 Days" (DLC)
-*Season 2
-*Michonne
-*Season 3 
-*Final season 
 */
