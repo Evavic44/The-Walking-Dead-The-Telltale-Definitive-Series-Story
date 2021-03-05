@@ -127,6 +127,8 @@ a {
 .hero-content h1 {
     font-size: 35px;
     margin-bottom: 10px;
+    transform: translateY(-1000px);
+    animation: slideY 1s forwards ease-out;
 }
 
 .hero-content p {
@@ -135,11 +137,34 @@ a {
     color: #fff;
     padding: 1rem;
     max-width: 900px;
+    transform: translateX(-2000px);
+    animation: slideX 1.4s forwards ease-in;
 }
 
 .hero-content .btn {
     margin-top: 20px;
     padding: 17px 40px;
+}
+
+/* Animation */
+@keyframes slideY {
+    from {
+        transform: translateY(-1000px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideX {
+    from {
+        transform: translateX(-2000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 /* Slide */
@@ -289,7 +314,7 @@ a {
     *todo: Add award plaque page
     *todo: Add footer
     *todo: Make page responsive
-    todo:  Add smooth scrolling
+    *todo:  Add smooth scrolling
     todo:  Add sliding animation 
     todo:  Add favicon
     todo:  Update README
