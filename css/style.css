@@ -97,7 +97,6 @@ a {
     text-align: center;
     height: 100vh;
     padding: 20px;
-    /* padding-top: 7rem; */
     background-image: url(/img/header-one.jpg);
     background-color: #000;
     background-repeat: no-repeat;
@@ -273,6 +272,10 @@ a {
         font-size: 1rem;
     }
 
+    .content p {
+        padding: 15px;
+    }
+
     .btn {
         padding: 15px 25px;
     }
@@ -285,6 +288,10 @@ a {
     *todo: Add background opacity to slide paragraphs
     *todo: Add award plaque page
     *todo: Add footer
-    todo:  Make page responsive
+    *todo: Make page responsive
     todo:  Add smooth scrolling
+    todo:  Add sliding animation 
+    todo:  Add favicon
+    todo:  Update README
+    todo:  Hosting Time! 
 */
