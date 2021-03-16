@@ -6,4 +6,4 @@
 
 > Use the buttons to navigate the website.
 
-[Visit website](https://thewalkingdead-slide.netlify.app)
+[Preview](https://thewalkingdead-slide.netlify.app)
