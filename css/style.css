@@ -32,9 +32,9 @@ body {
 }
 
 h1, h2 {
-    font-size: 30px;
-    padding-bottom: 10px;
-    text-shadow: 3px 3px 1px #8d5e18;
+    font-size: 1.875rem;
+    padding-bottom: 0.625rem;
+    text-shadow: 0.1875rem 0.1875rem 0.0625rem #8d5e18;
 }
 
 p {
@@ -58,9 +58,9 @@ a {
     text-decoration: none;
     color: #8d5e18;
     background-color: var(--color-shade-4);
-    padding: 17px 40px;
-    margin: 0 5px;
-    border-radius: 2px;
+    padding: 1.0625rem 2.5rem;
+    margin: 0 0.3125rem;
+    border-radius: 0.125rem;
     transition: all .4s ease-in-out;
 }
 
@@ -81,12 +81,12 @@ a {
 
 .bg-wrap-dark {
     background-color: rgba(22,22,22,0.7);
-    border-radius: 3px;
+    border-radius: 0.1875rem;
 }
 
 .bg-wrap-primary {
     background-color: rgb(214, 137, 20, 0.7);
-    border-radius: 3px;
+    border-radius: 0.1875rem;
 }
 
 .hero {
@@ -96,7 +96,7 @@ a {
     justify-content: center;
     text-align: center;
     height: 100vh;
-    padding: 20px;
+    padding: 1.25rem;
     background-image: url(/img/header-one.jpg);
     background-color: #000;
     background-repeat: no-repeat;
@@ -120,14 +120,14 @@ a {
 }
 
 .hero-content {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 0 1rem;
 }
 
 .hero-content h1 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    transform: translateY(-1000px);
+    font-size: 2.1875rem;
+    margin-bottom: 0.625rem;
+    transform: translateY(-62.5rem);
     animation: slideY 1s forwards ease-out;
 }
 
@@ -136,20 +136,20 @@ a {
     margin: 0 auto;
     color: #fff;
     padding: 1rem;
-    max-width: 900px;
-    transform: translateX(-2000px);
+    max-width: 56.25rem;
+    transform: translateX(-125rem);
     animation: slideX 1.4s forwards ease-in;
 }
 
 .hero-content .btn {
-    margin-top: 20px;
-    padding: 17px 40px;
+    margin-top: 1.25rem;
+    padding: 1.0625rem 2.5rem;
 }
 
 /* Animation */
 @keyframes slideY {
     from {
-        transform: translateY(-1000px);
+        transform: translateY(-62.5rem);
     }
 
     to {
@@ -159,7 +159,7 @@ a {
 
 @keyframes slideX {
     from {
-        transform: translateX(-2000px);
+        transform: translateX(-125rem);
     }
 
     to {
@@ -178,15 +178,15 @@ a {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding: 30px;
-    font-size: 18px;
+    padding: 1.875rem;
+    font-size: 1.125rem;
 }
 
 .content p {
-    padding: 30px 25px;
+    padding: 1.875rem 1.5625rem;
     line-height: 1.5;
     color: #f4f4f4;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 /* Slide One */
@@ -196,7 +196,7 @@ a {
     justify-content: center;
 }
 #slide-1 .content p {
-    max-width: 800px;
+    max-width: 50rem;
 }
 
 /* Slide Two */
@@ -207,7 +207,7 @@ a {
     text-align: left;
 }
 #slide-2 .content p {
-    max-width: 700px;
+    max-width: 43.75rem;
 }
 
 /* Slide Three */
@@ -218,7 +218,7 @@ a {
     text-align: left;
 }
 #slide-3 .content p {
-    max-width: 700px;
+    max-width: 43.75rem;
 }
 
 /* Slide Four */
@@ -229,7 +229,7 @@ a {
     text-align: left;
 }
 #slide-4 .content p {
-    max-width: 700px;
+    max-width: 43.75rem;
 }
 
 /* Slide Five */
@@ -240,7 +240,7 @@ a {
     text-align: left;
 }
 #slide-5 .content p {
-    max-width: 700px;
+    max-width: 43.75rem;
 }
 
 /* Slide Six */
@@ -249,20 +249,20 @@ a {
     align-items: flex-start;
     justify-content: center; 
     text-align: center;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 #slide-6 .content p {
-    max-width: 700px;
+    max-width: 43.75rem;
 }
 
 #slide-6 .content .btn-up {
     align-self: flex-end;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .content .btn-up a {
     background-color: #d68914;
-    padding: 2px 10px;
+    padding: 0.125rem 0.625rem;
     color: #fff;
 }
 
@@ -271,37 +271,37 @@ a {
 }
 
 /* Responsive */
-@media(max-width: 768px) {
+@media(max-width: 48rem) {
     /* Main section */
     .hero {
         padding-top: 2.5rem;
     }
 
     .hero-content {
-        font-size: 17px;
+        font-size: 1.0625rem;
     }
 
     .hero-content h1 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .hero-content .btn {
-        margin-top: 15px;
-        padding: 15px 25px;
-        font-size: 15px;
+        margin-top: 0.9375rem;
+        padding: 0.9375rem 1.5625rem;
+        font-size: 0.9375rem;
     }
 
     /* Slides */
     .slide .content {
-        padding: 20px;
+        padding: 1.25rem;
         font-size: 1rem;
     }
 
     .content p {
-        padding: 15px;
+        padding: 0.9375rem;
     }
 
     .btn {
-        padding: 15px 25px;
+        padding: 0.9375rem 1.5625rem;
     }
 }
